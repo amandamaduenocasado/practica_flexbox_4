@@ -194,9 +194,6 @@ body {
     position: relative;
     width: 350px;
     height: 234px;
-    background-color: #512051;
-    padding: 40px 32px 35px 32px;
-    border-radius: 8px;
     right: 190px;
   }
 }
@@ -206,9 +203,6 @@ body {
     position: relative;
     width: 370px;
     height: 234px;
-    background-color: #512051;
-    padding: 40px 32px 35px 32px;
-    border-radius: 8px;
     top: 7.5px;
     right: 90px;
   }
@@ -219,9 +213,6 @@ body {
     position: relative;
     width: 370px;
     height: 234px;
-    background-color: #512051;
-    padding: 40px 30px 35px 32px;
-    border-radius: 8px;
     top: 15px;
   }
 }
