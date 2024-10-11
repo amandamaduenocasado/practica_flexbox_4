@@ -1,265 +1,264 @@
 * {
-    box-sizing: border-box;
-  }
-  
-html {
-    scroll-behavior: smooth;
+  box-sizing: border-box;
 }
-  
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    color: #512051;
-    font-family: 'League Spartan', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  color: #512051;
+  font-family: 'League Spartan', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (width > 768px) {
-    body {
-        background-color: hsl(0, 0%, 100%);
-        color: #512051;
-        font-family: 'League Spartan', sans-serif;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-    }
+  body {
+    background-color: hsl(0, 0%, 100%);
+    flex-direction: row;
+    align-items: flex-start;
+  }
 }
 
 .header {
-    margin: 82px 24px 64px 24px;
-    text-align: center;
-    width: 327px;
-    height: 219px;
-  }
+  margin: 82px 24px 64px 24px;
+  text-align: center;
+  width: 327px;
+  height: 219px;
+}
 
 @media screen and (width > 768px) {
-    .header {
+  .header {
     margin-left: 165px;
     text-align: start;
   }
- }
-
-  .title-header {
-    width: 327px;
-    height: 102px;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 17px;
-    line-height: 32px;
-  }
-
-  @media screen and (width > 768px) {
-    .title-header {
-        width: 380px;
-        height: 154px;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 48px;
-        margin-top: 118px;
-        margin-left: 165px
-    }
-  }
-
-  .text-header {
-    width: 327px;
-    height: 100px;
-    font-weight: 500;
-    font-size: 19px;
-    line-height: 25px;
-    color: #927B91;
-  }
-
-@media screen and (width > 768px) {
-    .text-header {
-        width: 445px;
-        height: 75px;
-        font-weight: 500;
-        font-size: 19px;
-        line-height: 25px;
-        color: #927B91;
-        margin-left: 165px
-    }
 }
 
-.container-star-1, .container-star-2, .container-star-3 {
-    width: 327px;
-    height: 78px;
-    background-color: #F7F2F7;
-    border-radius: 8px;
-    text-align: center;
-    padding-top: 16px;
-    margin-bottom: 17px;
+.title-header {
+  width: 327px;
+  height: 102px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 17px;
+  line-height: 32px;
+}
+
+@media screen and (width > 768px) {
+  .title-header {
+    width: 380px;
+    height: 154px;
+    font-size: 56px;
+    line-height: 48px;
+    margin-top: 118px;
+    margin-left: 165px;
+  }
+}
+
+.text-header {
+  width: 327px;
+  height: 100px;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 25px;
+  color: #927b91;
+}
+
+@media screen and (width > 768px) {
+  .text-header {
+    width: 445px;
+    height: 75px;
+    margin-left: 165px;
+  }
+}
+
+.container-star-1,
+.container-star-2,
+.container-star-3 {
+  width: 327px;
+  height: 78px;
+  background-color: #f7f2f7;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 17px;
 }
 
 .container-star-3 {
-    margin-bottom: 49px;
+  margin-bottom: 49px;
 }
 
 @media screen and (width > 768px) {
-    .container-star-3 {
-        margin-bottom: 89px;
-    } 
+  .container-star-3 {
+    margin-bottom: 89px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-star-1, .container-star-2, .container-star-3 {
-        width: 445px;
-        height: 56px;
-        background-color: #F7F2F7;
-        border-radius: 8px;
-        padding-top: 16px;
-        display: flex; 
-        flex-direction: row;
-        padding-left: 32px;
-        padding-right: 79px;
-    }
+  .container-star-1,
+  .container-star-2,
+  .container-star-3 {
+    position: relative;
+    width: 445px;
+    height: 56px;
+    background-color: #f7f2f7;
+    border-radius: 8px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 32px;
+    padding-right: 79px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-star-1 {
-        margin-top: 151px;
-        margin-left: 475px;
-    }
+  .container-star-1 {
+    margin-top: 151px;
+    left: 450px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-star-2 {
-        margin-left: 571px;   
-    }
+  .container-star-2 {
+    left: 550px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-star-3 {
-        margin-left: 665px;   
-    }
+  .container-star-3 {
+    left: 650px;
+  }
 }
 
 .icon {
+  width: 16.55px;
+  height: 15.77px;
+  margin-left: 3px;
+}
+
+@media screen and (width > 768px) {
+  .icon {
+    position: relative;
     width: 16.55px;
     height: 15.77px;
     margin-left: 3px;
-}
-
-@media screen and (width > 768px) {
-    .icon {
-        position: relative;
-        width: 16.55px;
-        height: 15.77px;
-        margin-left: 3px;
-        top: 5px;
-    }
+    top: 5px;
+  }
 }
 
 .text-star {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (width > 768px) {
+  .text-star {
+    position: relative;
     font-size: 17px;
     font-weight: 700;
-    text-align: center;
+    bottom: 8px;
+    left: 40px;
+  }
+}
+
+.big-container-buyer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (width > 768px) {
-    .text-star {
-        position: relative;
-        font-size: 17px;
-        font-weight: 700;
-        bottom: 8px;
-        left: 40px;
-    }
-}
-
-.big-container-buyer{
+  .big-container-buyer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.container-buyer-1,
+.container-buyer-2,
+.container-buyer-3 {
+  position: relative;
+  width: 327px;
+  height: 248px;
+  background-color: #512051;
+  padding: 40px 32px 35px 32px;
+  margin-bottom: 16px;
+  border-radius: 8px;
 }
 
 @media screen and (width > 768px) {
-    .big-container-buyer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
-.container-buyer-1, .container-buyer-2, .container-buyer-3 {
+  .container-buyer-1 {
     position: relative;
-    width: 327px;
-    height: 248px;
+    width: 350px;
+    height: 234px;
     background-color: #512051;
     padding: 40px 32px 35px 32px;
-    margin-bottom: 16px;
     border-radius: 8px;
+    right: 180px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-buyer-1 {
-        position: relative;
-        width: 370px;
-        height: 234px;
-        background-color: #512051;
-        padding: 40px 32px 35px 32px;
-        border-radius: 8px;
-        right: 180px
-    }
+  .container-buyer-2 {
+    position: relative;
+    width: 370px;
+    height: 234px;
+    background-color: #512051;
+    padding: 40px 32px 35px 32px;
+    border-radius: 8px;
+    top: 7.5px;
+    right: 90px;
+  }
 }
 
 @media screen and (width > 768px) {
-    .container-buyer-2 {
-        position: relative;
-        width: 370px;
-        height: 234px;
-        background-color: #512051;
-        padding: 40px 32px 35px 32px;
-        border-radius: 8px;
-        top: 7.5px;
-        right: 90px;
-    }
-}
-
-@media screen and (width > 768px) {
-    .container-buyer-3 {
-        position: relative;
-        width: 370px;
-        height: 234px;
-        background-color: #512051;
-        padding: 40px 30px 35px 32px;
-        border-radius: 8px;
-        top: 15px;
-    }
+  .container-buyer-3 {
+    position: relative;
+    width: 370px;
+    height: 234px;
+    background-color: #512051;
+    padding: 40px 30px 35px 32px;
+    border-radius: 8px;
+    top: 15px;
+  }
 }
 
 .buyer-name {
-    font-size: 17px;
-    font-weight: 700;
-    color: white;
-    text-align: start;
-    margin: 0;
-    margin-left: 55px;
-    margin-bottom: 4px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  text-align: start;
+  margin: 0;
+  margin-left: 55px;
+  margin-bottom: 4px;
 }
 
 .buyer-verified {
-    font-size: 17px;
-    font-weight: 400;
-    color: #EE69A4;
-    margin: 0;
-    text-align: start;
-    margin-left: 55px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #ee69a4;
+  margin: 0;
+  text-align: start;
+  margin-left: 55px;
 }
 
 .buyer-text {
-    font-size: 17px;
-    font-weight: 500;
-    color: white;
-    line-height: 22px;
-    text-align: start;
-    margin-top: 23px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  line-height: 22px;
+  text-align: start;
+  margin-top: 23px;
 }
 
 .buyer-face {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    top: 35px;
-    left: 32px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  top: 35px;
+  left: 32px;
 }
